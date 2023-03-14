@@ -14,7 +14,11 @@ exports.config = {
     WebDriver: {
       url: 'https://www.metal-archives.com/',
       browser: 'chrome'
-    }
+    },
+    REST: {
+      endpoint: 'http://localhost:3000/api'
+    },
+    JSONResponse: {}
   },
   include: {
     I: './steps_file.js'
